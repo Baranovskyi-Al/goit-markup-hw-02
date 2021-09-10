@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-      <!--Заголовок-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+  </head>
+  <body>
+    <!--Заголовок-->
     <header>
       <!--Логотип и навигация-->
       <nav>
         <a lang="en" href=""><span class="logo-web">Web</span>Studio</a>
         <ul>
           <li>
-            <a href="">Студия</a>
+            <a href="./index.html">Студия</a>
           </li>
           <li>
-            <a href="">Портфолио</a>
+            <a href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -36,14 +36,94 @@
     </header>
     <!--Основоной контент-->
     <main>
-
+      <h1>Портфолио</h1>
+      <!-- Кнопки фильтра -->
+      <section>
+        <ul>
+          <li>
+            <button type="button">Все</button>
+          </li>
+          <li>
+            <button type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button">Приложения</button>
+          </li>
+          <li>
+            <button type="button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button">Маркетинг</button>
+          </li>
+        </ul>
+      </section>
+      <!-- Проекты -->
+      <section>
+        <ul>
+          <li>
+            <img src="./images/img_pf_1.jpg" alt="Технокряк" width="370" height="294" />
+            <h3>Технокряк</h3>
+            <p lang="en">Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./images/img_pf_2.jpg" alt="Постер NO vs GS" width="370" height="294" />
+            <h3>Постер New Orlean vs Golden Star</h3>
+            <p lang="en">Дизайн</p>
+          </li>
+          <li>
+            <img src="./images/img_pf_3.jpg" alt="Ресторан Seafood" width="370" height="294" />
+            <h3>Ресторан Seafood</h3>
+            <p lang="en">Приложение</p>
+          </li>
+          <li>
+            <img src="./images/img_pf_4.jpg" alt="Проект Prime" width="370" height="294" />
+            <h3>Проект Prime</h3>
+            <p lang="en">Маркетинг</p>
+          </li>
+          <li>
+            <img src="./images/img_pf_5.jpg" alt="Проект Boxes" width="370" height="294" />
+            <h3>Проект Boxes</h3>
+            <p lang="en">Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_pf_6.jpg"
+              alt="Inspiration has no Borders"
+              width="370"
+              height="294"
+            />
+            <h3>Inspiration has no Borders</h3>
+            <p lang="en">Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_pf_7.jpg"
+              alt="Издание Limited Edition"
+              width="370"
+              height="294"
+            />
+            <h3>Издание Limited Edition</h3>
+            <p lang="en">Дизайн</p>
+          </li>
+          <li>
+            <img src="./images/img_pf_8.jpg" alt="Проект LAB" width="370" height="294" />
+            <h3>Проект LAB</h3>
+            <p lang="en">Маркетинг</p>
+          </li>
+          <li>
+            <img src="./images/img_pf_9.jpg" alt="Growing Business" width="370" height="294" />
+            <h3>Growing Business</h3>
+            <p lang="en">Приложение</p>
+          </li>
+        </ul>
+      </section>
     </main>
-     <!--Подвал-->
+    <!--Подвал-->
     <footer>
       <!--Логотип-->
       <a lang="en" href=""><span class="logo-web">Web</span>Studio</a>
       <!--Адрес и контакты-->
-      <address>
+      <address id="contacts">
         <ul>
           <li>
             <a href="">г. Киев, пр-т Леси Украинки, 26</a>
@@ -57,5 +137,5 @@
         </ul>
       </address>
     </footer>
-</body>
+  </body>
 </html>
