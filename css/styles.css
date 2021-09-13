@@ -1,0 +1,35 @@
+body {
+  font-family: Roboto;
+  color: #212121;
+}
+footer {
+  background-color: #2f303a;
+}
+a {
+  text-decoration: none;
+}
+/* Логотип */
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.logo-studio-header {
+  color: #000000;
+  font-family: Roboto;
+}
+.logo-studio-footer {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+/* Основные стили общие */
+
+/* Основные стили index*/
+
+/* Основные стили portfolio */
