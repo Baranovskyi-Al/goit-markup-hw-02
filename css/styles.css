@@ -40,7 +40,7 @@ ul {
 .footer-logo-studio {
   color: var(--primary-background-color);
 }
-/* Ссылки в шапке*/
+/* Ссылки в хедере*/
 .address-link {
   color: var(--text-color);
   letter-spacing: 0.02em;
@@ -51,6 +51,16 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+/* Ссылки в футере */
+.footer-address-text,
+.footer-address-link {
+  color: var(--primary-background-color);
+  font-style: normal;
+}
+.footer-address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* Интерактивность ссылок */
 .nav-link:hover,
 .nav-link:focus,
 .address-link:hover,
@@ -61,11 +71,4 @@ ul {
 .footer-address-link:focus {
   color: var(--accent-color);
 }
-.footer-address-text,
-.footer-address-link {
-  color: var(--primary-background-color);
-  font-style: normal;
-}
-.footer-address-link {
-  color: rgba(255, 255, 255, 0.6);
-}
+/* Шапка */
