@@ -43,6 +43,8 @@ ul {
 /* Ссылки в хедере*/
 .address-link {
   color: var(--text-color);
+  font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-link {
@@ -72,8 +74,11 @@ ul {
   color: var(--accent-color);
 }
 /* Шапка */
-.section-business-title {
+.section-business {
   background-color: var(--secondary-background-color);
+  text-align: center;
+}
+.business-title {
   color: var(--primary-background-color);
   font-weight: 900;
   font-size: 44px;
@@ -105,10 +110,10 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  text-transform: uppercase;
 }
 .section-specificities-title {
   color: var(--title-text-color);
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
